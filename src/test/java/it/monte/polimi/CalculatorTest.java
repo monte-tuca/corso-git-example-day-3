@@ -12,4 +12,10 @@ class CalculatorTest {
         assertEquals(3, c.add(1, 2));
         assertEquals(0, c.add(0,0));
     }
+
+    @Test
+    void sub() {
+        assertEquals(-1, c.sub(1, 2));
+        assertEquals(0, c.sub(0, 0));
+    }
 }
