@@ -6,5 +6,7 @@ public class Main {
 
         System.out.println(c.add(1,2));
         System.out.println(c.sub(1,2));
+
+        System.out.println(c.mul(1,2));
     }
 }
