@@ -18,4 +18,10 @@ class CalculatorTest {
         assertEquals(-1, c.sub(1, 2));
         assertEquals(0, c.sub(0, 0));
     }
+
+    @Test
+    void mul(){
+        assertEquals(6, c.mul(2,3));
+        assertEquals(0, c.mul(2,0));
+    }
 }
