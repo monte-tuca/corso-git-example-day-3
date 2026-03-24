@@ -5,5 +5,6 @@ public class Main {
         Calculator c = new Calculator();
 
         System.out.println(c.add(1,2));
+        System.out.println(c.sub(1,2));
     }
 }
